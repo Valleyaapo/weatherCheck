@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+/* colors
+rgb(102,102,102) grey
+rgb(216,216,216) lightgrey
+rgb(167,155,144) lightbrown
+*/
+
+.App-header {
+  background-color: rgb(177, 33, 143);
+  height: 55px;
+  padding: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+.Container {
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.text-input {
+  padding: 5px 15px;
+}
+.appH1 {
+  margin: 15px;
+}
+.citycard {
+  border: 1px solid black;
+  margin: 5px;
+  border-radius: 16px
+}
+.citycard:hover {
+  cursor: pointer
+}
+
+.button--save {
+  padding: 15px 5em;
+  background-color: rgb(81, 238, 178);
+  margin: 10px;
+  border-radius: 16px;
+}
+.button--save:hover {
+  transform: scale(1.1, 1.1);
+  border-radius: 50px
+}
